@@ -11,6 +11,7 @@ I'm passionate about program development and currently focused on learning artif
 ## 📫 Connect with Me
 
 - GitHub: https://github.com/uk0976
+- Linkedin: https://www.linkedin.com/in/umer-khan-57a458288/
 
 ## 🚀 Professional Perspective
 
