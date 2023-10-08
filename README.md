@@ -12,7 +12,7 @@ I'm passionate about program development and currently focused on learning artif
 
 - GitHub: https://github.com/uk0976
 - Linkedin: https://www.linkedin.com/in/umer-khan-57a458288/
-- Email: umerkhandoctor04#gmail.com
+- Email: umerkhandoctor04@gmail.com
 
 ## 🚀 Professional Perspective
 
