@@ -108,7 +108,7 @@ const umerKhan = {
   </a>
 </p>
 
-### 🧠 Neural Engine & Data Science
+### 🤖 Artificial Intelligence & Machine Learning
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
@@ -220,21 +220,27 @@ const umerKhan = {
 ## 📈 `[COMMAND_CENTER :: ANALYTICS]`
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=uk0976&show_icons=true&theme=synthwave&hide_border=true&count_private=true" height="175" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=uk0976&layout=compact&theme=synthwave&hide_border=true" height="175" alt="Top Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=uk0976&theme=tokyonight" alt="GitHub Stats Summary" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=uk0976&theme=tokyonight" alt="Language Breakdown" />
 </div>
 
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=uk0976&theme=synthwave&hide_border=true" height="165" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=uk0976&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak Stats" />
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=uk0976&theme=react-dark" width="100%" alt="GitHub Contribution Activity Graph" />
 </div>
 
 <br/>
 
 <!-- Futuristic Quote Card -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=synthwave" alt="Quote Card" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote Card" />
 </div>
 
 ---
