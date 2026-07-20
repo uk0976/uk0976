@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="280" viewBox="0 0 490 280" fill="none">
+  <style>
+    .bg { fill: #0d1117; rx: 12px; }
+    .line {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+      font-size: 13px;
+      opacity: 0;
+      animation: slideIn 0.35s ease-out forwards;
+    }
+    .title-user { fill: #58a6ff; font-weight: bold; font-size: 15px; }
+    .title-at { fill: #8b949e; font-size: 15px; }
+    .title-host { fill: #7ee787; font-weight: bold; font-size: 15px; }
+    .sep { fill: #484f58; font-size: 13px; }
+    
+    .swatch {
+      opacity: 0;
+      animation: fadeIn 0.3s ease-out forwards;
+    }
+
+    @keyframes slideIn {
+      0% {
+        opacity: 0;
+        transform: translateX(-12px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: scale(0.5); }
+      100% { opacity: 1; transform: scale(1); }
+    }
+  </style>
+
+  <rect width="490" height="280" class="bg" stroke="#30363d" stroke-width="1" />
+  
+  <text x="25" y="42" class="line title-user" style="animation-delay: 0.1s;">uk0976</text><text x="82" y="42" class="line title-at" style="animation-delay: 0.1s;">@</text><text x="96" y="42" class="line title-host" style="animation-delay: 0.1s;">github</text><text x="25" y="60" class="line sep" style="animation-delay: 0.2s;">---------------------------------------</text><text x="25" y="85" class="line" style="animation-delay: 0.30s;"><tspan fill="#58a6ff" font-weight="bold">OS:</tspan> <tspan fill="#c9d1d9">Developer Workstation (Windows 11 x86_64)</tspan></text><text x="25" y="109" class="line" style="animation-delay: 0.40s;"><tspan fill="#79c0ff" font-weight="bold">Host:</tspan> <tspan fill="#c9d1d9">Full Stack Engineer & AI Enthusiast</tspan></text><text x="25" y="133" class="line" style="animation-delay: 0.50s;"><tspan fill="#d2a8ff" font-weight="bold">Uptime:</tspan> <tspan fill="#c9d1d9">24/7 Building & Innovating</tspan></text><text x="25" y="157" class="line" style="animation-delay: 0.60s;"><tspan fill="#7ee787" font-weight="bold">Stack:</tspan> <tspan fill="#c9d1d9">Python, JavaScript, TypeScript, React, Node</tspan></text><text x="25" y="181" class="line" style="animation-delay: 0.70s;"><tspan fill="#ffa657" font-weight="bold">Tools:</tspan> <tspan fill="#c9d1d9">Git, Docker, VSCode, Antigravity AI</tspan></text><text x="25" y="205" class="line" style="animation-delay: 0.80s;"><tspan fill="#ff7b72" font-weight="bold">Focus:</tspan> <tspan fill="#c9d1d9">Web Development & AI Coding Systems</tspan></text><text x="25" y="229" class="line" style="animation-delay: 0.90s;"><tspan fill="#38d8f0" font-weight="bold">Status:</tspan> <tspan fill="#c9d1d9">🟢 Open for Collaborations & Projects</tspan></text>
+  <rect class="swatch" x="25" y="265" width="16" height="12" rx="2" fill="#ff7b72" style="animation-delay: 1.10s;" /><rect class="swatch" x="47" y="265" width="16" height="12" rx="2" fill="#7ee787" style="animation-delay: 1.15s;" /><rect class="swatch" x="69" y="265" width="16" height="12" rx="2" fill="#ffa657" style="animation-delay: 1.20s;" /><rect class="swatch" x="91" y="265" width="16" height="12" rx="2" fill="#58a6ff" style="animation-delay: 1.25s;" /><rect class="swatch" x="113" y="265" width="16" height="12" rx="2" fill="#d2a8ff" style="animation-delay: 1.30s;" /><rect class="swatch" x="135" y="265" width="16" height="12" rx="2" fill="#38d8f0" style="animation-delay: 1.35s;" /><rect class="swatch" x="157" y="265" width="16" height="12" rx="2" fill="#c9d1d9" style="animation-delay: 1.40s;" />
+</svg>
