@@ -1,22 +1,26 @@
 <div align="center">
 
-<!-- Futuristic Cyberpunk Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,35:101827,70:00f2fe,100:7000ff&height=220&section=header&text=UMER%20KHAN&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=twinkling" width="100%" />
+<!-- AI Cyberpunk Header Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090e,35:00f2fe,70:7000ff,100:00ff88&height=220&section=header&text=UMER%20KHAN&fontSize=52&fontColor=ffffff&fontAlignY=38&animation=twinkling" width="100%" />
 
-<!-- Neon Typing SVG Header -->
+<!-- AI Typing Header -->
 <a href="https://github.com/uk0976">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00F2FE&center=true&vCenter=true&width=700&lines=%E2%9A%A1+INITIALIZING+DEVELOPER+CORE...;%F0%9F%A4%96+AI+%26+Data+Science+Architect;%F0%9F%90%8D+Python+%26+Deep+Learning+Engineer;%F0%9F%A7%A9+LeetCode+Problem+Solver;%F0%9F%9A%80+Building+The+Future+With+Generative+AI" alt="Futuristic Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=00F2FE&center=true&vCenter=true&width=750&lines=%F0%9F%A4%96+AI+%26+DATA+SCIENCE+ARCHITECT;%F0%9F%A7%A0+GENERATIVE+AI+%26+NEURAL+SYSTEMS+ENGINEER;%F0%9F%90%8D+PYTHON+%26+DEEP+LEARNING+DEVELOPER;%F0%9F%A7%A9+DATA+STRUCTURES+%26+ALGORITHMS+SOLVER;%E2%9A%A1+DREAM+%E2%80%A2+CODE+%E2%80%A2+BUILD+%E2%80%A2+REPEAT" alt="AI Typing Header" />
 </a>
 
 <br/><br/>
 
+<!-- Location & Profile Badges (Spaced & Styled) -->
 <p align="center">
   <a href="https://github.com/uk0976">
-    <img src="https://komarev.com/ghpvc/?username=uk0976&label=SYSTEM%20VIEWS&color=00f2fe&style=for-the-badge" alt="Profile Views" />
+    <img src="https://komarev.com/ghpvc/?username=uk0976&label=System_Views&color=ff0055&style=for-the-badge" alt="System Views" />
   </a>
-  <img src="https://img.shields.io/badge/LOCATION-MUMBAI%2C%20INDIA%20🇮🇳-7000ff?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/DEGREE-B.E.%20AI%20%26%20DATA%20SCIENCE-00ff88?style=for-the-badge&logo=target&logoColor=black" />
-  <img src="https://img.shields.io/badge/STATUS-READY%20FOR%20DEPLOYMENT-ff0055?style=for-the-badge" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/%F0%9F%93%9D_Degree-B.E._AI_%26_Data_Science-00f2fe?style=for-the-badge&logoColor=white" alt="Degree" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/%F0%9F%93%8D_Location-Mumbai%2C_India_%F0%9F%87%AE%F0%9F%87%B3-7000ff?style=for-the-badge&logoColor=white" alt="Location" />
+  &nbsp;
+  <img src="https://img.shields.io/badge/%F0%9F%8E%AF_Status-Ready_For_Deployment-00ff88?style=for-the-badge&logoColor=black" alt="Status" />
 </p>
 
 </div>
@@ -25,20 +29,20 @@
 
 <!-- Developer Infographic -->
 <div align="center">
-  <img src="./assets/umer_khan_infographic.jpg" width="88%" style="border-radius: 16px; box-shadow: 0 0 20px rgba(0, 242, 254, 0.4);" alt="Umer Khan Developer Infographic" />
+  <img src="./assets/umer_khan_infographic.jpg" width="88%" style="border-radius: 16px; box-shadow: 0 0 24px rgba(0, 242, 254, 0.4);" alt="Umer Khan AI Developer Infographic" />
 </div>
 
 <br />
 
 ---
 
-## 🛰️ <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"> `[SYSTEM_DIAGNOSTICS :: ABOUT_ME]`
+## 🛰️ `[SYSTEM_DIAGNOSTICS :: ABOUT_ME]`
 
 ```javascript
 /**
  * @file UmerKhan.js
  * @status SYSTEM ONLINE // SECURITY LEVEL: 5
- * @mission INNOVATE • AUTOMATE • IMPACT
+ * @specialization AI & DATA SCIENCE ARCHITECTURE
  */
 
 const umerKhan = {
@@ -54,7 +58,7 @@ const umerKhan = {
     primaryDirectives: [
         "AI & Data Science Architect",
         "Python & Deep Learning Developer",
-        "Generative AI & RAG Engineer",
+        "Generative AI & RAG Specialist",
         "Algorithmic Problem Solver"
     ],
 
@@ -87,9 +91,9 @@ const umerKhan = {
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>🛸 Full-Stack & Systems</h3>
+      <h3>🛸 Full-Stack & Engineering</h3>
       <ul>
-        <li>🌐 <b>Responsive Web Interfaces</b>: Crafting modern UI/UX applications.</li>
+        <li>🌐 <b>Responsive Interfaces</b>: Building interactive web & desktop tools.</li>
         <li>⚙️ <b>Automation & Smart Tools</b>: Creating NLP schedulers & data bots.</li>
         <li>🌍 <b>Open Source Ecosystem</b>: Contributing impactful software solutions.</li>
       </ul>
@@ -132,63 +136,98 @@ const umerKhan = {
 ### 🛠️ Control Center & Environments
 <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,github,vscode,render,figma&perline=5" />
+    <img src="https://skillicons.dev/icons?i=git,github,vscode,docker,linux,figma,postman&perline=7" />
   </a>
 </p>
 
 ---
 
-## 🛸 `[PROJECT_VAULT :: FEATURED_SYSTEMS]`
+## 🛸 `[PROJECT_VAULT :: ALL_REPOSITORIES]`
 
 <table border="0">
   <tr>
     <td width="50%" valign="top">
       <h3 align="center">🏥 MedInsight AI</h3>
-      <p align="center"><code>[STATUS: DEPLOYED]</code> • <code>[CATEGORY: RAG / HEALTHCARE]</code></p>
-      <p>AI-driven clinical report summarizer powered by Retrieval-Augmented Generation, LangChain & BioBERT to contextualize medical data for doctors & patients.</p>
+      <p align="center"><code>[RAG / HEALTHCARE AI]</code></p>
+      <p>AI-driven clinical report summarizer powered by Retrieval-Augmented Generation, LangChain & BioBERT to contextualize medical data.</p>
       <p align="center">
-        <a href="https://github.com/uk0976/MedInsight---RAG-Based-AI-Medical-Report-Summarizer"><b>⚡ LAUNCH SYSTEM REPO »</b></a>
+        <a href="https://github.com/uk0976/MedInsight---RAG-Based-AI-Medical-Report-Summarizer"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">📈 StockSage AI</h3>
-      <p align="center"><code>[STATUS: ACTIVE]</code> • <code>[CATEGORY: FINTECH / ML]</code></p>
-      <p>FinTech intelligence system integrating ML price predictions, Streamlit interactive analytics, technical indicators, and an autonomous AI chatbot.</p>
+      <p align="center"><code>[FINTECH / ML CHATBOT]</code></p>
+      <p>FinTech intelligence system integrating ML price predictions, Streamlit interactive analytics, technical indicators, and an AI bot.</p>
       <p align="center">
-        <a href="https://github.com/uk0976/StockSage---Stock-Prediction-System-with-Integrated-ChatBot"><b>⚡ LAUNCH SYSTEM REPO »</b></a>
+        <a href="https://github.com/uk0976/StockSage---Stock-Prediction-System-with-Integrated-ChatBot"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🚨 NSERS Response</h3>
-      <p align="center"><code>[STATUS: GOOGLE CLOUD]</code> • <code>[CATEGORY: AI EMERGENCY]</code></p>
-      <p>National Smart Emergency Response Platform built with Google Cloud AI for real-time incident reporting, multimodal AI verification & smart dispatch.</p>
+      <h3 align="center">🚨 NSERS Emergency System</h3>
+      <p align="center"><code>[GOOGLE CLOUD AI]</code></p>
+      <p>National Smart Emergency Response Platform built with Google Cloud AI for real-time incident reporting & multimodal dispatch.</p>
       <p align="center">
-        <a href="https://github.com/uk0976/NSERS---National-Smart-Emergency-Response-System"><b>⚡ LAUNCH SYSTEM REPO »</b></a>
+        <a href="https://github.com/uk0976/NSERS---National-Smart-Emergency-Response-System"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3 align="center">🧠 Smart Task Scheduler</h3>
-      <p align="center"><code>[STATUS: ACTIVE]</code> • <code>[CATEGORY: NLP / PRODUCTIVITY]</code></p>
-      <p>Autonomous task prioritization system utilizing SpaCy NLP, Python Tkinter UI, and SQLite for natural language parsing & deadline tracking.</p>
+      <p align="center"><code>[NLP / PRODUCTIVITY]</code></p>
+      <p>Autonomous task prioritization system utilizing SpaCy NLP, Python Tkinter UI, and SQLite for natural language parsing & reminders.</p>
       <p align="center">
-        <a href="https://github.com/uk0976/Smart-Task-Scheduler-with-AI-Integration"><b>⚡ LAUNCH SYSTEM REPO »</b></a>
+        <a href="https://github.com/uk0976/Smart-Task-Scheduler-with-AI-Integration"><b>⚡ VIEW REPOSITORY »</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">👤 Face Recognition Attendance</h3>
+      <p align="center"><code>[COMPUTER VISION / OPENCV]</code></p>
+      <p>Multiple Face Recognition Attendance System using Haar Cascade Classifier and LBPH Algorithm for real-time biometric tracking.</p>
+      <p align="center">
+        <a href="https://github.com/uk0976/Multiple-Face-Recognition-Attendance-System"><b>⚡ VIEW REPOSITORY »</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📚 Library Management System</h3>
+      <p align="center"><code>[PYTHON GUI / MYSQL]</code></p>
+      <p>Python-based Library Management System with a Tkinter GUI and MySQL backend to manage books, members, and issue/return records.</p>
+      <p align="center">
+        <a href="https://github.com/uk0976/Library-Management-System"><b>⚡ VIEW REPOSITORY »</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🎲 Snakes & Ladder Game</h3>
+      <p align="center"><code>[PYTHON / TKINTER ENGINE]</code></p>
+      <p>Modern Tkinter graphical board game featuring animated dice, multiplayer support, AI opponents, and live scoreboards.</p>
+      <p align="center">
+        <a href="https://github.com/uk0976/Snakes-and-Ladder-Game"><b>⚡ VIEW REPOSITORY »</b></a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🧩 DSA & LeetCode Journey</h3>
+      <p align="center"><code>[ALGORITHMS & SOLUTIONS]</code></p>
+      <p>My DSA & LeetCode journey repository containing structured solutions to coding problems and algorithm patterns.</p>
+      <p align="center">
+        <a href="https://github.com/uk0976/Data-Structures-Algorithms-DSA-Journey"><b>⚡ VIEW REPOSITORY »</b></a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top" colspan="2" align="center">
+      <h3 align="center">⚡ CoreForge Studio</h3>
+      <p align="center"><code>[ARCHITECTURE & SOFTWARE STUDIO]</code></p>
+      <p>Modular development architecture and system configuration modules.</p>
+      <p align="center">
+        <a href="https://github.com/uk0976/CoreForge-Studio"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
   </tr>
 </table>
-
-<details>
-<summary><b>📂 ACCESS ADDITIONAL SOFTWARE MODULES »</b></summary>
-<br/>
-
-- 👤 **[Multiple Face Recognition Attendance System](https://github.com/uk0976/Multiple-Face-Recognition-Attendance-System)**: Real-time biometric tracking with Haar Cascade & LBPH Algorithm.
-- 📚 **[Library Management System](https://github.com/uk0976/Library-Management-System)**: Tkinter GUI & MySQL backend for university library automation.
-- 🎲 **[Snakes & Ladder Game](https://github.com/uk0976/Snakes-and-Ladder-Game)**: Interactive Tkinter graphical engine with AI opponents.
-- 🌐 **[Personal Portfolio Matrix](https://my-portfolio-website-msm1.onrender.com)**: Futuristic web portfolio built with HTML, CSS, JavaScript.
-
-</details>
 
 ---
 
@@ -217,17 +256,10 @@ const umerKhan = {
 
 ---
 
-## 📈 `[COMMAND_CENTER :: ANALYTICS]`
+## 📈 `[COMMAND_CENTER :: ACTIVITY_ANALYTICS]`
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=uk0976&theme=tokyonight" alt="GitHub Stats Summary" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=uk0976&theme=tokyonight" alt="Language Breakdown" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=uk0976&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=uk0976&theme=tokyonight&hide_border=true" height="170" alt="GitHub Streak Stats" />
 </div>
 
 <br/>
@@ -251,12 +283,15 @@ const umerKhan = {
   <a href="https://linkedin.com/in/umerkhan04" target="_blank">
     <img src="https://img.shields.io/badge/LINKEDIN-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://github.com/uk0976" target="_blank">
     <img src="https://img.shields.io/badge/GITHUB-100000?style=for-the-badge&logo=github&logoColor=white" />
   </a>
+  &nbsp;
   <a href="mailto:umerkhandoctor04@email.com">
     <img src="https://img.shields.io/badge/GMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://my-portfolio-website-msm1.onrender.com" target="_blank">
     <img src="https://img.shields.io/badge/PORTFOLIO_SITE-7000ff?style=for-the-badge&logo=render&logoColor=white" />
   </a>
@@ -265,5 +300,5 @@ const umerKhan = {
 <br/>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00f2fe,100:7000ff&height=110&section=footer&text=⚡%20BUILDING%20SOLUTIONS.%20IMPACTING%20LIVES.%20⚡&fontSize=18&fontColor=ffffff&fontAlignY=50" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:09090e,35:00f2fe,70:7000ff,100:00ff88&height=110&section=footer&text=⚡%20BUILDING%20SOLUTIONS.%20IMPACTING%20LIVES.%20⚡&fontSize=18&fontColor=ffffff&fontAlignY=50" width="100%" />
 </div>
