@@ -47,7 +47,6 @@ def image_to_ascii(image_path, width=54):
 
     img = Image.open(image_path).convert("L")
     aspect_ratio = img.height / img.width
-    # Character aspect ratio is roughly 0.55
     height = int(width * aspect_ratio * 0.55)
     img = img.resize((width, height), Image.Resampling.LANCZOS)
 
@@ -56,7 +55,6 @@ def image_to_ascii(image_path, width=54):
     for row in pixels:
         line_chars = []
         for p in row:
-            # Map 0..255 to 0..len(RAMP)-1
             idx = int((p / 255.0) * (len(RAMP) - 1))
             line_chars.append(RAMP[idx])
         lines.append("".join(line_chars))
@@ -72,12 +70,10 @@ def make_ascii_svg():
     line_height = 8.5
     start_y = 20
 
-    # Wrap each row in a clipPath that animates width from 0 to 100%
     clip_paths = []
     text_elements = []
 
-    total_lines = len(lines)
-    duration_per_line = 0.05
+    duration_per_line = 0.04
     start_delay = 0.1
 
     for idx, line_str in enumerate(lines):
@@ -85,7 +81,6 @@ def make_ascii_svg():
         y = start_y + idx * line_height
         delay = start_delay + idx * duration_per_line
 
-        # Escaping XML entities
         safe_line = (
             line_str.replace("&", "&amp;")
             .replace("<", "&lt;")
@@ -107,7 +102,7 @@ def make_ascii_svg():
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}" fill="none">
   <style>
-    .bg {{ fill: #0d1117; rx: 12px; }}
+    .bg {{ fill: #0d1117; stroke: #30363d; stroke-width: 1px; }}
     .ascii-row {{
       font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
       font-size: {font_size}px;
@@ -117,7 +112,7 @@ def make_ascii_svg():
     }}
   </style>
 
-  <rect width="{svg_width}" height="{svg_height}" class="bg" stroke="#30363d" stroke-width="1" />
+  <rect width="{svg_width}" height="{svg_height}" rx="12" ry="12" class="bg" />
   
   <defs>
     {"".join(clip_paths)}

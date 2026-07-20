@@ -29,17 +29,14 @@ def render_heatmap():
     current_streak = data.get("current_streak", 0)
     longest_streak = data.get("longest_streak", 0)
 
-    # 53 weeks x 7 days grid setup
     BOX_SIZE = 11
     BOX_GAP = 3
     PADDING_LEFT = 40
     PADDING_TOP = 40
     
-    # Calculate dimensions
     svg_width = 860
     svg_height = 175
 
-    # Group days by week
     weeks = []
     current_week = []
     for day in days:
@@ -50,9 +47,8 @@ def render_heatmap():
     if current_week:
         weeks.append(current_week)
 
-    weeks = weeks[-53:] # Keep last 53 weeks
+    weeks = weeks[-53:]
 
-    # Generate rect elements and month labels
     rects_svg = []
     months_svg = []
     last_month = -1
@@ -60,7 +56,6 @@ def render_heatmap():
     for w_idx, week in enumerate(weeks):
         x = PADDING_LEFT + w_idx * (BOX_SIZE + BOX_GAP)
         
-        # Check first day of week for month label change
         if week:
             first_day_date = datetime.strptime(week[0]["date"], "%Y-%m-%d")
             month = first_day_date.month
@@ -79,7 +74,6 @@ def render_heatmap():
             count = day.get("count", 0)
             date = day.get("date", "")
 
-            # Staggered animation delay based on diagonal position (week + day)
             delay = (w_idx * 0.015) + (d_idx * 0.02)
             
             rects_svg.append(
@@ -88,7 +82,6 @@ def render_heatmap():
                 f'<title>{count} contributions on {date}</title></rect>'
             )
 
-    # Days of week labels (Mon, Wed, Fri)
     day_labels_svg = []
     day_names = [("", 0), ("Mon", 1), ("", 2), ("Wed", 3), ("", 4), ("Fri", 5), ("", 6)]
     for name, idx in day_names:
@@ -98,7 +91,6 @@ def render_heatmap():
                 f'<text x="{PADDING_LEFT - 10}" y="{y}" class="day-label" text-anchor="end">{name}</text>'
             )
 
-    # Legend rects
     legend_x_start = svg_width - 150
     legend_y = svg_height - 18
     legend_rects = []
@@ -116,7 +108,7 @@ def render_heatmap():
 
     svg_content = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{svg_width}" height="{svg_height}" viewBox="0 0 {svg_width} {svg_height}" fill="none">
   <style>
-    .bg {{ fill: #0d1117; rx: 12px; }}
+    .bg {{ fill: #0d1117; stroke: #30363d; stroke-width: 1px; }}
     .header-title {{ fill: #c9d1d9; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; }}
     .header-stat {{ fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 12px; }}
     .month-text {{ fill: #8b949e; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; font-size: 10px; }}
@@ -125,23 +117,16 @@ def render_heatmap():
     
     .day-box {{
       opacity: 0;
-      transform-origin: center;
       animation: fadeIn 0.4s ease-out forwards;
     }}
     
     @keyframes fadeIn {{
-      0% {{
-        opacity: 0;
-        transform: scale(0.3);
-      }}
-      100% {{
-        opacity: 1;
-        transform: scale(1);
-      }}
+      0% {{ opacity: 0; }}
+      100% {{ opacity: 1; }}
     }}
   </style>
 
-  <rect width="{svg_width}" height="{svg_height}" class="bg" stroke="#30363d" stroke-width="1" />
+  <rect width="{svg_width}" height="{svg_height}" rx="12" ry="12" class="bg" />
   
   <!-- Header -->
   <text x="{PADDING_LEFT}" y="22" class="header-title">{total_contributions:,} contributions in the last year</text>
