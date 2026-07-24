@@ -291,7 +291,7 @@ const umerKhan = {
       <img src="https://streak-stats.demolab.com/?user=uk0976&theme=tokyonight&hide_border=true" height="175" alt="GitHub Streak Stats" />
     </td>
     <td width="50%" align="center" valign="middle">
-      <img src="https://leetcard.jacoblin.cool/uk0976?theme=dark" height="175" alt="LeetCode Stats" />
+      <img src="https://leetcard.jacoblin.cool/umerkhan04?theme=dark" height="175" alt="LeetCode Stats" />
     </td>
   </tr>
 </table>
