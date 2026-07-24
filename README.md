@@ -80,7 +80,7 @@ const umerKhan = {
 
 ## ⚡ `[CURRENT_OPERATIONS :: WHAT_I_DO]`
 
-<table border="0">
+<table border="0" width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3>🧠 Algorithmic Core & AI</h3>
@@ -144,84 +144,111 @@ const umerKhan = {
 
 ## 🛸 `[PROJECT_VAULT :: ALL_REPOSITORIES]`
 
-<table border="0">
+<table border="0" width="100%" cellpadding="6" cellspacing="0">
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">🏥 MedInsight AI</h3>
       <p align="center"><code>[RAG / HEALTHCARE AI]</code></p>
       <p>AI-driven clinical report summarizer powered by Retrieval-Augmented Generation, LangChain & BioBERT to contextualize medical data.</p>
       <p align="center">
+        <b>Tech:</b> <code>Python</code> • <code>LangChain</code> • <code>RAG</code> • <code>BioBERT</code>
+      </p>
+      <p align="center">
         <a href="https://github.com/uk0976/MedInsight---RAG-Based-AI-Medical-Report-Summarizer"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">📈 StockSage AI</h3>
       <p align="center"><code>[FINTECH / ML CHATBOT]</code></p>
       <p>FinTech intelligence system integrating ML price predictions, Streamlit interactive analytics, technical indicators, and an AI bot.</p>
+      <p align="center">
+        <b>Tech:</b> <code>Python</code> • <code>Streamlit</code> • <code>Scikit-learn</code> • <code>NLP</code>
+      </p>
       <p align="center">
         <a href="https://github.com/uk0976/StockSage---Stock-Prediction-System-with-Integrated-ChatBot"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">🚨 NSERS Emergency System</h3>
       <p align="center"><code>[GOOGLE CLOUD AI]</code></p>
       <p>National Smart Emergency Response Platform built with Google Cloud AI for real-time incident reporting & multimodal dispatch.</p>
       <p align="center">
+        <b>Tech:</b> <code>Google Cloud</code> • <code>Multimodal AI</code> • <code>Python</code> • <code>API</code>
+      </p>
+      <p align="center">
         <a href="https://github.com/uk0976/NSERS---National-Smart-Emergency-Response-System"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">🧠 Smart Task Scheduler</h3>
       <p align="center"><code>[NLP / PRODUCTIVITY]</code></p>
       <p>Autonomous task prioritization system utilizing SpaCy NLP, Python Tkinter UI, and SQLite for natural language parsing & reminders.</p>
+      <p align="center">
+        <b>Tech:</b> <code>Python</code> • <code>SpaCy NLP</code> • <code>Tkinter</code> • <code>SQLite</code>
+      </p>
       <p align="center">
         <a href="https://github.com/uk0976/Smart-Task-Scheduler-with-AI-Integration"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">👤 Face Recognition Attendance</h3>
       <p align="center"><code>[COMPUTER VISION / OPENCV]</code></p>
       <p>Multiple Face Recognition Attendance System using Haar Cascade Classifier and LBPH Algorithm for real-time biometric tracking.</p>
       <p align="center">
+        <b>Tech:</b> <code>OpenCV</code> • <code>LBPH Algorithm</code> • <code>Haar Cascade</code> • <code>Python</code>
+      </p>
+      <p align="center">
         <a href="https://github.com/uk0976/Multiple-Face-Recognition-Attendance-System"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">📚 Library Management System</h3>
       <p align="center"><code>[PYTHON GUI / MYSQL]</code></p>
       <p>Python-based Library Management System with a Tkinter GUI and MySQL backend to manage books, members, and issue/return records.</p>
+      <p align="center">
+        <b>Tech:</b> <code>Python</code> • <code>Tkinter GUI</code> • <code>MySQL</code>
+      </p>
       <p align="center">
         <a href="https://github.com/uk0976/Library-Management-System"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">🎲 Snakes & Ladder Game</h3>
       <p align="center"><code>[PYTHON / TKINTER ENGINE]</code></p>
       <p>Modern Tkinter graphical board game featuring animated dice, multiplayer support, AI opponents, and live scoreboards.</p>
       <p align="center">
+        <b>Tech:</b> <code>Python</code> • <code>Tkinter</code> • <code>AI Opponents</code>
+      </p>
+      <p align="center">
         <a href="https://github.com/uk0976/Snakes-and-Ladder-Game"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
-    <td width="50%" valign="top">
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">🧩 DSA & LeetCode Journey</h3>
       <p align="center"><code>[ALGORITHMS & SOLUTIONS]</code></p>
       <p>My DSA & LeetCode journey repository containing structured solutions to coding problems and algorithm patterns.</p>
+      <p align="center">
+        <b>Tech:</b> <code>DSA</code> • <code>Algorithms</code> • <code>Problem Solving</code>
+      </p>
       <p align="center">
         <a href="https://github.com/uk0976/Data-Structures-Algorithms-DSA-Journey"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top" colspan="2" align="center">
+    <td width="100%" valign="top" colspan="2" style="border: 1px solid #30363d; border-radius: 8px; padding: 12px; background: #0d1117;">
       <h3 align="center">⚡ CoreForge Studio</h3>
       <p align="center"><code>[ARCHITECTURE & SOFTWARE STUDIO]</code></p>
       <p>Modular development architecture and system configuration modules.</p>
+      <p align="center" style="margin-top: 15px;">
+        <b>Tech:</b> <code>System Architecture</code> • <code>Configuration Modules</code>
+      </p>
       <p align="center">
         <a href="https://github.com/uk0976/CoreForge-Studio"><b>⚡ VIEW REPOSITORY »</b></a>
       </p>
@@ -233,7 +260,7 @@ const umerKhan = {
 
 ## 🏆 `[HONORS_&_CREDENTIALS]`
 
-<table border="0">
+<table border="0" width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3>📜 Global Certifications</h3>
@@ -258,9 +285,16 @@ const umerKhan = {
 
 ## 📈 `[COMMAND_CENTER :: ACTIVITY_ANALYTICS]`
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=uk0976&theme=tokyonight&hide_border=true" height="170" alt="GitHub Streak Stats" />
-</div>
+<table border="0" width="100%">
+  <tr>
+    <td width="50%" align="center" valign="middle">
+      <img src="https://streak-stats.demolab.com/?user=uk0976&theme=tokyonight&hide_border=true" height="175" alt="GitHub Streak Stats" />
+    </td>
+    <td width="50%" align="center" valign="middle">
+      <img src="https://leetcard.jacoblin.cool/uk0976?theme=dark" height="175" alt="LeetCode Stats" />
+    </td>
+  </tr>
+</table>
 
 <br/>
 
